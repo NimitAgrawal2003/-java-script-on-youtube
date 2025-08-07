@@ -44,4 +44,5 @@ const course = {
  
 const {courseInstructor : instructor} = course     // destructor now we only need to write instructor instead of courseInstructor 
 // {  } means distructuring 
+console.log(instructor);
 
