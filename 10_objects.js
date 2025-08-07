@@ -33,6 +33,15 @@ JsUser.greetingtwo = function(){
 }
 
 
-console.log(JsUser.greeting())  ; 
-console.log(JsUser.greetingtwo())  ; 
+console.log(JsUser.greeting())  
+console.log(JsUser.greetingtwo())  
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+ 
+const {courseInstructor : instructor} = course     // destructor now we only need to write instructor instead of courseInstructor 
+// {  } means distructuring 
 
