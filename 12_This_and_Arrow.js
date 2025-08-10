@@ -19,10 +19,10 @@ const addTwo = (num1 , num2) => {    // arrow function
 console.log(addTwo(3,4))
 
 const addTwo1 = (num1 , num2) => ( num1 + num2 )  // other way of declaring arrow function 
-console.log(addTwo(4,4))
+console.log(addTwo1(4,4))
 
 const addTwo2 = (num1 , num2) =>  num1 + num2   // other way of declaring arrow function 
-console.log(addTwo(5,4))
+console.log(addTwo2(5,4))
 
 
 const addTwo3 = (num1 , num2) =>  ({uesername: "hitesh"})   // way of return an object
