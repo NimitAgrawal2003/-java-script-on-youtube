@@ -21,19 +21,3 @@ buttons.forEach(function (button) {
   });
 }); 
 
-/* other way of above code
-document.querySelector('.button').addEventListener('click',function(e){
-  console.log(e.target)
-  if(e.target.id === 'grey'){
-        body.style.backgroundColor = e.target.id // here color name and id name is same that why we got color changed
-    }
-    if(e.target.id === 'white'){
-        body.style.backgroundColor = e.target.id
-    }
-    if(e.target.id === 'blue'){
-        body.style.backgroundColor = e.target.id
-    }
-    if(e.target.id === 'yellow'){
-        body.style.backgroundColor = e.target.id
-    }
-}) */  
