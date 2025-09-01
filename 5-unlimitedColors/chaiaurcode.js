@@ -10,7 +10,7 @@ const randomColor = function(){
 };
 let intervalId;
 const startChangingColor = function(){
-    if(!intervalId){
+    if(!intervalId){   //This means the block will execute only when intervalId is null, undefined, 0, false, NaN, or an empty string
         intervalId = setInterval(changeBgColor,1000)
     }
     function changeBgColor(){
